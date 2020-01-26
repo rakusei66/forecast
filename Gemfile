@@ -13,10 +13,10 @@ gem 'sinatra-contrib'
 gem 'sinatra-activerecord'
 gem 'activerecord'
 
-group :production do
-    gem 'pg'
-end
-
 group :development do
     gem 'sqlite3'
+end
+
+group :production do
+    gem 'pg'
 end
