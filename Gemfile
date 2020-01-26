@@ -7,17 +7,16 @@ gem 'debase'
 gem 'rcodetools'
 gem 'fastri'
 
+gem 'rake'
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'sinatra-activerecord'
-gem 'activerecord', '5.2.3'
-# gem 'sqlite3', '1.4.1'
-gem 'rake'
+gem 'activerecord'
 
 group :production do
-    gem 'pg' , '~> 0.21.0'
+    gem 'pg'
 end
 
 group :development do
-    gem 'sqlite3' , '~> 1.4.1'
+    gem 'sqlite3'
 end
