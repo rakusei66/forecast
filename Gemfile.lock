@@ -83,7 +83,7 @@ DEPENDENCIES
   sinatra
   sinatra-activerecord
   sinatra-contrib
-  sqlite3 (= 1.4.1)
+  sqlite3 (~> 1.4.1)
 
 RUBY VERSION
    ruby 2.6.2p47
